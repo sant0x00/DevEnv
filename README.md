@@ -73,8 +73,7 @@ These tools are widely used by developers, and installing them all at once can b
 Para usar o script para o Windows, basta baixá-lo e executá-lo no powershell com permissões administrativas. O script irá instalar todas as ferramentas listadas acima, sem a necessidade de intervenção manual:
 
 ```powershell
-chmod +x set_linux_env.sh
-sudo ./set_linux_env.sh
+.\set_windows_env.ps1
 ```
 
 ### Windows - English
@@ -87,8 +86,9 @@ To use the script for Windows, just download it and run it in powershell with ad
 ### Linux - Portuguese
 Para usar o script para o linux, basta baixá-lo e executá-lo com `sudo` no terminal. O script irá instalar todas as ferramentas listadas acima, sem a necessidade de intervenção manual:
 
-```powershell
-.\set_windows_env.ps1
+```shell
+chmod +x set_linux_env.sh
+sudo ./set_linux_env.sh
 ```
 
 ### Linux - English
