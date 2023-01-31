@@ -98,3 +98,7 @@ To use the script for the linux, just download it and run it with `sudo` in the 
 chmod +x set_linux_env.sh
 sudo ./set_linux_env.sh
 ```
+
+## Developers Involved
+- sant0x00: [GitHub Link](https://github.com/sant0x00)
+- rios0rios0: [GitHub Link](https://github.com/rios0rios0)
