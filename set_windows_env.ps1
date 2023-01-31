@@ -14,4 +14,7 @@ wsl --set-default-version 2
 Invoke-WebRequest -Uri https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe -OutFile docker.exe
 Start-Process .\docker.exe -Wait
 
+# Install the distribution Ubuntu to the WSL2
+wsl --import Ubuntu C:\Ubuntu\rootfs https://aka.ms/wsl-ubuntu-2004
+
 Write-Output "All tools were installed!"
